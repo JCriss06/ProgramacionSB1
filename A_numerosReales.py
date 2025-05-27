@@ -67,14 +67,14 @@ def es_numeros_real(cadena):
     return numvalido
 
 if __name__ == "__main__":
-    print(es_numeros_real("-123.456"))  # True
-    print(es_numeros_real("123.456e+789"))  # True
-    print(es_numeros_real("123"))  # True
-    print(es_numeros_real("123e-10"))  # True
-    print(es_numeros_real("123."))  # False
-    print(es_numeros_real(".456"))  # False
-    print(es_numeros_real("e10"))  # False
-    print(es_numeros_real("123e"))  # False
-
-
-
+    a = str(input("ingrese un numero: "))
+    print("El numero es real: ", es_numeros_real(a))
+    #print(es_numeros_real(a))
+    #print(es_numeros_real("-123.456"))  # True
+    #print(es_numeros_real("123.456e+789"))  # True
+    #print(es_numeros_real("123"))  # True
+    #print(es_numeros_real("123e-10"))  # True
+    #print(es_numeros_real("123."))  # False
+    #print(es_numeros_real(".456"))  # False
+    #print(es_numeros_real("e10"))  # False
+    #print(es_numeros_real("123e"))  # False
